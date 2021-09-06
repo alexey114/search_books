@@ -2,15 +2,15 @@
 // import { Card, CardTitle, CardImg, CardBody, Button, Modal } from 'reactstrap';
 
 // const BookCard = ( { 
-//     thumbnail
-//     title
-//     pageCount
-//     language
-//     authors
-//     publisher
-//     description
-//     previewLink
-//     infoLink
+//     thumbnail,
+//     title,
+//     pageCount,
+//     language,
+//     authors,
+//     publisher,
+//     description,
+//     previewLink,
+//     infoLink,
 // }) => {
 //     // States
 //     const [modal, setModal] = useState(false);
@@ -18,7 +18,7 @@
 
 //         return (
 //         <Card style={ {width: '233px'}} className='m-auto'>
-//             <Cardimg 
+//             <CardImg 
 //             top 
 //             style={{width: '100%', height: '233px'} } 
 //             src={thumbnail} 

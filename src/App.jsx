@@ -30,12 +30,12 @@ class App extends React.Component {
 
     this.setState({
       totalItems:books.totalItems,
-      smallThumbnail:books.items.[0].volumeInfo.thumbnail,
-      title:books.items.[0].volumeInfo.title,
-      categories:books.items.[0].volumeInfo.categories,
-      authors:books.items.[0].volumeInfo.authors,
+      thumbnail:books.items.[1].volumeInfo.imageLinks.thumbnail,
+      title:books.items.[1].volumeInfo.title,
+      categories:books.items.[1].volumeInfo.categories,
+      authors:books.items.[1].volumeInfo.authors,
       error: undefined   
-    }) ;
+    });
   } else {
     this.setState({
     imageLinks: undefined,  
@@ -56,7 +56,7 @@ class App extends React.Component {
         <SortingBy/>
         <Results
           totalItems={this.state.totalItems}
-          smallThumbnail={this.state.smallThumbnail}
+          smallThumbnail={this.state.thumbnail}
           title={this.state.title}
           categories={this.state.categories}
           authors={this.state.authors}

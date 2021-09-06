@@ -32,7 +32,10 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .Books_Results{
-    width: 100%;
+    margin: 0 auto;
+    text-align: center;    
+    width: 80%;
     display: flex;
-    justify-content: center;    
+    justify-content: center;
+    background: rgba(245, 241, 241, 0.5);
 }

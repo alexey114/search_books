@@ -53,7 +53,7 @@ const Results = (props) => (
             <div>
                 <h3>Всего результатов: {props.totalItems} </h3>
                 <section>
-                    <img src="{props.smallThumbnail}" alt="Изображение"></img>
+                    <img src="{props.thumbnail}" alt="Изображение отсутствует"></img>
                     <h4> Название книги: {props.title}</h4>
                     <h5> Название категории: {props.categories}</h5>
                     <h6> Имя автора: {props.authors}</h6>
@@ -63,5 +63,5 @@ const Results = (props) => (
             <p>{props.error}</p>
         </div>
     );
-export default Results;
 
+export default Results
