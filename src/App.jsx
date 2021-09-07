@@ -1,7 +1,8 @@
 import React from "react";
 import Books from './components/Books';
-import SortingBy from './components/SortingBy';
 import Results from './components/Results.jsx';
+import SortingBy from './components/SortingBy';
+import Category from './components/Category';
 // import BookCard from './components/BookCard.jsx';
 
 const API_KEY = "AIzaSyBnggTekNbNBOc8PWu0fKLv6rV-P-UfgQE";
@@ -47,12 +48,11 @@ class App extends React.Component {
   }
 }
 
-
-
   render(){
     return(
       <div className="wrapper">
         <Books acceptingBooks = {this.receivingBooks}/>
+        <Category/>
         <SortingBy/>
         <Results
           totalItems={this.state.totalItems}

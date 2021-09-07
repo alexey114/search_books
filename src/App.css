@@ -21,11 +21,22 @@ body {
 
 h1,h2,h3,h4,h5,h6{
     padding: 15px;
-    color: rgb(8, 1, 1);
-
+    color: rgb(5, 0, 0);
 }
 
 .Books_Sorting{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Category{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Sorting{
     width: 100%;
     display: flex;
     justify-content: center;
@@ -39,3 +50,4 @@ h1,h2,h3,h4,h5,h6{
     justify-content: center;
     background: rgba(245, 241, 241, 0.5);
 }
+
