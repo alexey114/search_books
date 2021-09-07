@@ -2,21 +2,23 @@
 
 body {
     font-family: "Open Sans", serif;   
-    background: no-repeat top/100% url(Img/books.jpg);   
-
+    background: no-repeat top/100% url(Img/books.jpg);
 }
 
-.wrapper{    
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-     
+    background: rgba(245, 241, 241, 0.5);
 }
 
 .Books_Search{
-    width: 100%;
+    width: 80%;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;   
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -31,13 +33,15 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .Category{
-    width: 100%;
+    width: 80%;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
 }
 
 .Sorting{
-    width: 100%;
+    width: 80%;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
 }
@@ -47,7 +51,5 @@ h1,h2,h3,h4,h5,h6{
     text-align: center;    
     width: 80%;
     display: flex;
-    justify-content: center;
-    background: rgba(245, 241, 241, 0.5);
+    justify-content: center;    
 }
-

@@ -19,7 +19,7 @@ class SortingBy extends React.Component {
     render() {
         return (
             <FormGroup className="Sorting">
-                <Label for="Sorting">Sorting By: 
+                <Label for="Sorting">Sorting By {' '} 
                     <select value={this.state.value} onChange={this.handleChange}>
                         <option value="newest">newest</option>
                         <option value="relevance">relevance</option>

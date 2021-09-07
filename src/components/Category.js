@@ -19,7 +19,7 @@ class Category extends React.Component {
     render() {
         return (
             <FormGroup className="Category">
-                <Label for="Category">Category 
+                <Label for="Category">Category {' '}
                     <select value={this.state.value} onChange={this.handleChange}>
                         <option value="art">art</option>
                         <option value="all">all</option>
